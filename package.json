@@ -1,0 +1,18 @@
+{
+  "name": "ClipDown",
+  "homepage": "https://github.com/UserScript/ClipDown",
+  "author": "cssmagic <cssmagic.cn@gmail.com>",
+  "description": "A tool to clip webpage and convert to Markdown.",
+  "license": "MIT",
+  "scripts": {
+    "dist": "gulp",
+    "clean": "gulp clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "3.*",
+    "del": "^1.1.1",
+    "gulp-concat": "2.*"
+  }
+}

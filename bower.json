@@ -1,0 +1,33 @@
+{
+  "name": "clipdown",
+  "homepage": "https://github.com/UserScript/ClipDown",
+  "authors": [
+    "cssmagic <cssmagic.cn@gmail.com>"
+  ],
+  "description": "A tool to clip webpage and convert to Markdown.",
+  "main": "dist/clipdown.user.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Markdown"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "**.sh",
+    "**.min.js",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "gulpfile.js",
+    "test",
+    "doc",
+    "demo"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "2.*",
+    "to-markdown": "3.*"
+  }
+}
